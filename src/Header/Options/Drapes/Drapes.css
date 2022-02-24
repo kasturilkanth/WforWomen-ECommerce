@@ -1,0 +1,26 @@
+.drapes-cont{
+    background-color:rgba(0,0,0,0.5);
+    width: 100px;
+    height: 80px;
+    display:block;
+    position:absolute;
+    left: 650px;
+    top:70px;
+    z-index: 2;
+    padding: 40px;
+   
+  
+}
+.dupattas,.shawls{
+    font-weight: bolder;
+    font-size: larger;
+    color: white;
+
+}
+.drapes-cont:hover{
+    cursor: pointer;
+}
+.dupattas:hover,.shawls:hover{
+color: red;
+
+}

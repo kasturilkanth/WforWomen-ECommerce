@@ -1,0 +1,26 @@
+.footwear-cont{
+    background-color:rgba(0,0,0,0.5);
+    width: 180px;
+    height: 100px;
+    display:block;
+    position:absolute;
+    left: 430px;
+    top:70px;
+    z-index: 2;
+    padding: 40px;
+   
+  
+}
+.heels,.flats,.wedges{
+    font-weight: bolder;
+    font-size: larger;
+    color: white;
+
+}
+.footwear-cont:hover{
+    cursor: pointer;
+}
+.heels:hover,.flats:hover,.wedges:hover{
+color: red;
+
+}

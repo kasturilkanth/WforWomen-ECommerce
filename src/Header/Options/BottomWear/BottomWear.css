@@ -1,0 +1,26 @@
+.bottomwear-cont{
+    background-color:rgba(0,0,0,0.5);
+    width: 200px;
+    height: 160px;
+    display:block;
+    position:absolute;
+    left: 200px;
+    top:70px;
+    z-index: 2;
+    padding: 40px;
+   
+  
+}
+.pallazos,.skirts,.chudidars,.plus-size-bottomwear,.folksong-bottemwear{
+    font-weight: bolder;
+    font-size: larger;
+    color: white;
+}
+.bottomwear-cont:hover{
+    cursor: pointer;
+
+}
+.pallazos:hover,.skirts:hover,.chudidars:hover,.plus-size-bottomwear:hover,.folksong-bottemwear:hover{
+
+color: red;
+}

@@ -1,0 +1,26 @@
+.wishfull-cont{
+    background-color:rgba(0,0,0,0.5);
+    width: 170px;
+    height: 140px;
+    display:block;
+    position:absolute;
+    left: 720px;
+    top:70px;
+    z-index: 2;
+    padding: 40px;
+   
+  
+}
+.kurtas,.sets-dresses,.pp,.skirts{
+    font-weight: bolder;
+    font-size: larger;
+    color: white;
+
+}
+.wishfull-cont:hover{
+    cursor: pointer;
+}
+.kurtas:hover,.sets-dresses:hover,.pp:hover,.skirts:hover{
+color: red;
+
+}

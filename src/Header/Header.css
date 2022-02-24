@@ -1,0 +1,132 @@
+.header{
+    background-color:white;
+    width: 100vw;
+    height: 100px;
+    border-bottom: 1px solid rgb(204, 196, 196);
+    display:flex;
+    align-items: center;
+    position:fixed;
+    z-index: 2;
+   
+  
+}
+.options{
+    display:flex;
+    justify-content: space-around;
+    
+}
+
+.image-logo{
+    height: 90px;
+    width: 100px;
+    border: 4px solid white;
+
+}
+.image-logo:hover{
+    cursor: pointer;
+}
+.newin,.drapes{
+    font-weight: bold;
+    width: 50px;
+    text-align: center;
+    font-size: small;
+}
+.topwear:hover,.newin:hover,.bottomwear:hover,.cosmetics:hover,.footwear:hover,.winterwear:hover,.drapes:hover,.wishful:hover,.sale:hover{
+    cursor: pointer;
+    color: red;
+   
+}
+.cosmetics,.footwear,.winterwear,.bottomwear,.topwear,.wishful{
+    width: 100px;
+    font-weight: bold;
+    text-align: center;
+    font-size: small;
+    
+}
+.sale{
+    width: 40px;
+    font-weight: bold;
+    text-align: center;
+    color: red;
+    font-size: small;
+}
+.right{
+   margin-bottom: 30px; 
+   
+}
+
+.input-box{
+    width: 250px;
+    height:50px;
+    border-radius: 7px;
+    border: 1px solid rgb(204, 196, 196);
+    font-size: larger;
+    margin-left: 220px;
+    margin-top: 70px;
+}
+#g-search-button {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    left: -42px;
+    top: 7px;
+
+  }
+#login-logo{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    left: -72px;
+    top: 20px;
+
+}
+#wishlist-logo{
+    width: 40px;
+    height: 40px;
+    position: relative;
+    left: -120px;
+    top: 10px;
+
+}
+#cart-logo{
+    width: 40px;
+    height: 40px;
+    position: relative;
+    left: 620px;
+    top: -50px;
+
+}
+#login-name{
+    position: relative;
+    top: 30px;
+    left: -20px;
+   
+}
+#login-name:hover{
+    cursor: pointer;
+    color: red;
+}
+#wishlist-name{
+    position: relative;
+    top: 30px;
+    left: -60px;
+}
+#wishlist-name:hover{
+    cursor: pointer;
+    color: red;
+}
+#cart-name{
+    position: relative;
+    top: 30px;
+    left:-80px;
+    /* left: 100px; */
+}
+#cart-name:hover{
+    cursor: pointer;
+    color: red;
+}
+#g-search-button:hover{
+    cursor: pointer;
+    color: red;
+}

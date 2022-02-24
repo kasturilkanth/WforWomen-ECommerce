@@ -1,24 +1,46 @@
-import logo from './logo.svg';
-import './App.css';
+import {useEffect,useState} from 'react';
+import Header from './Header/Header';
+import FilterWrapper from './FilterWrapper/FilterWrapper';
+import CardList from './CardWrapper/CardList';
+// import Homepage from './AppliedFiltersCard/Homepage';
+// import NoData from './AppliedFiltersCard/NoData';
+
 
 function App() {
+  const[card,setCard]=useState([]);
+  const [filter,setFilter]=useState('')
+  const [mainState, setMainState] = useState({
+    categoryFilter: [],
+      priceFilter: [],
+      colorFilter:[],
+      sizeFilter:[],
+      
+    });
+
+ 
+  useEffect(()=>{
+    fetch(`https://pim.wforwoman.com/pim/pimresponse.php/?service=category&store=1&url_key=top-wear-kurtas&page=1&count=20&sort_by=&sort_dir=desc&filter=${filter}`)
+    .then((res)=>res.json())
+    .then((result)=>{
+     console.log(result.result.products);
+     setCard(result.result.products);
+    })
+    // let filteredString=filterString(mainState)
+    // console.log(mainState)
+    // setFilter(filteredString)
+},[setCard]);
+
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+
+<>
+<Header/>
+
+<div style={{display:'flex'}}>
+<FilterWrapper setMainState={setMainState} />
+<CardList card={card}  />
+</div>
+    </>
   );
 }
 

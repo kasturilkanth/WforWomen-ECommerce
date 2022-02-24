@@ -1,0 +1,26 @@
+.cosmetics-cont{
+    background-color:rgba(0,0,0,0.5);
+    width: 180px;
+    height: 130px;
+    display:block;
+    position:absolute;
+    left: 330px;
+    top:70px;
+    z-index: 2;
+    padding: 40px;
+   
+  
+}
+.lips,.eyes,.nails,.face{
+    font-weight: bolder;
+    font-size: larger;
+    color: white;
+
+}
+.cosmetics-cont:hover{
+    cursor: pointer;
+}
+.lips:hover,.eyes:hover,.nails:hover,.face:hover{
+color: red;
+
+}

@@ -1,0 +1,56 @@
+.card{
+    cursor: pointer;
+    padding: 10px;
+    /* background-color: aquamarine; */
+    margin-top: 110px;
+   width: 240px;
+  height: 550px;
+
+}
+.kurtas-img{
+    width: 240px;
+    height: 380px;
+    cursor: pointer;
+
+}
+.detail{
+    cursor: pointer;
+   position:relative;
+   width: 200px;
+   height: 20px;
+   background-color: red;
+   color: white;
+   text-align: center;
+   padding: 20px;
+   display: flex;
+   justify-content: center;
+ align-items: center;
+margin-top: -55px;
+z-index: 1;
+}
+.heart{
+
+  margin-top: -380px;
+  margin-left: 20px;
+  font-size: 30px;
+  background-color: white;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.name{
+  margin-top: 360px;
+ text-align: center;
+}
+.price-display{
+text-align: center;
+}
+.card:hover{
+  border: 1px solid rgb(204, 196, 196);
+}
+
+

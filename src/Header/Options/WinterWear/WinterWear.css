@@ -1,0 +1,26 @@
+.winterwear-cont{
+    background-color:rgba(0,0,0,0.5);
+    width: 180px;
+    height: 100px;
+    display:block;
+    position:absolute;
+    left: 500px;
+    top:70px;
+    z-index: 2;
+    padding: 40px;
+   
+  
+}
+.winter-kurtas,.outerwear,.plus-size-winter{
+    font-weight: bolder;
+    font-size: larger;
+    color: white;
+
+}
+.winterwear-cont:hover{
+    cursor: pointer;
+}
+.winter-kurtas:hover,.outerwear:hover,.plus-size-winter:hover{
+color: red;
+
+}

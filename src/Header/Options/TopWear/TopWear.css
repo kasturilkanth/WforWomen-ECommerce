@@ -1,0 +1,26 @@
+.topwear-cont{
+    background-color:rgba(0,0,0,0.5);
+    width: 180px;
+    height: 180px;
+    display:block;
+    position:absolute;
+    left: 110px;
+    top:70px;
+    z-index: 2;
+    padding: 40px;
+   
+  
+}
+.kurtas,.sets,.tops,.gilets,.plus,.folksong{
+    font-weight: bolder;
+    font-size: larger;
+    color: white;
+
+}
+.topwear-cont:hover{
+    cursor: pointer;
+}
+.kurtas:hover,.sets:hover,.tops:hover,.gilets:hover,.plus:hover,.folksong:hover{
+color: red;
+
+}
