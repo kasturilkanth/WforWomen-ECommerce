@@ -1,7 +1,7 @@
 .header{
     background-color:white;
     width: 100%;
-    height: 70px;
+    height: 80px;
     border-bottom: 1px solid rgb(204, 196, 196);
     display:flex;
     align-items: center;
@@ -17,8 +17,8 @@
 }
 
 .image-logo{
-    height: 90px;
-    width: 100px;
+    height: 50px;
+    width: 60px;
     border: 4px solid white;
 
 }
@@ -37,7 +37,7 @@
    
 }
 .cosmetics,.footwear,.winterwear,.bottomwear,.topwear,.wishful{
-    width: 100px;
+    width: 80px;
     font-weight: bold;
     text-align: center;
     font-size: small;
@@ -134,5 +134,5 @@
     
     position: relative;
     top: -70px;
-    left:500px;
+    left:400px;
 }

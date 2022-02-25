@@ -2,6 +2,7 @@ import {useEffect,useState} from 'react';
 import Header from './Header/Header';
 import FilterWrapper from './FilterWrapper/FilterWrapper';
 import CardList from './CardWrapper/CardList';
+// import './App.css';
 
 
 
@@ -164,14 +165,14 @@ const filterString=(obj)=>{
   
   return (
 
-<>
+<div className='app'>
 <Header searchvaluefunc={searchvaluefunc}/>
 
 <div style={{display:'flex'}}>
 <FilterWrapper setMainState={setMainState} appliedFilters={appliedFilters}  clearFilter={clearFilter} />
 <CardList card={filteredCards}  />
 </div>
-    </>
+    </div>
   );
 }
 
