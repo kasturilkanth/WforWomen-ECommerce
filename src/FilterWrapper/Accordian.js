@@ -1,6 +1,6 @@
-import {useState} from 'react';
+import {useState,useEffect} from 'react';
 
-function Accordian({title,data,setMainState,tag}) {
+function Accordian({title,data,setMainState,tag,callback}) {
   const [display, setDisplay] = useState(false);
   const [checkedState, setCheckedState] = useState([]);
  
@@ -8,6 +8,19 @@ function Accordian({title,data,setMainState,tag}) {
     setDisplay((prev) => !prev)
     
   }
+  useEffect(()=>{
+    const clearCheckState=()=>{
+        setCheckedState([])
+    }
+    const singleCheckState=(id)=>{
+        const newState = [...checkedState];
+        setCheckedState(newState.filter(value => value !== id));
+    }
+    if(callback){
+        callback(clearCheckState,singleCheckState,tag)
+    }
+    
+},[callback,checkedState,tag])
   
   const addValue = (inputVal, filterName) => {
     if (inputVal) {

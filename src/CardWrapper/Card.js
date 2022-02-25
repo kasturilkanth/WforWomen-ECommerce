@@ -20,7 +20,7 @@ function Card({item}) {
         <div  className='heart'>♡</div>
         <h4 className='name'>{item.name}</h4>
         <h5 className='price-display'>Rs.{item.price}</h5>
-      {display? <h4 className='size-dropdown'>Size:{item.size}</h4>:null}
+      {display? <h4 className='size-dropdown'>Status:{item.stock_status}</h4>:null}
       
        
     </div>

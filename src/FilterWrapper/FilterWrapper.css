@@ -1,6 +1,6 @@
 .box{
   height: 1130px;
-  width: 370px;
+  width: 360px;
   border-left:1px solid rgb(204, 196, 196);
   border-right:1px solid rgb(204, 196, 196);
   border-top:1px solid rgb(204, 196, 196);
@@ -29,6 +29,19 @@ padding: 10px;
 }
 .name{
    font-weight: bold;
+}
+.appliedFiltes{
+  height: 150px;
+  width: 340px;
+  padding: 20px;
+  
+}
+.clearall{
+  background-color: red;
+  height:40px;
+  width:100px;
+  border-radius: 3px;
+  cursor: pointer;
 }
 
 

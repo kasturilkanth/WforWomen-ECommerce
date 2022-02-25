@@ -1,5 +1,4 @@
 import './Header.css';
-import {useState} from 'react';
 import TopWear from './Options/TopWear/TopWear';
 import BottomWear from './Options/BottomWear/BottomWear';
 import Cosmetics from './Options/Cosmetics/Cosmetics';
@@ -27,7 +26,7 @@ function Header({searchvaluefunc}){
     <div className='sale'>SALE</div>
     </div>
     <div className='right'>
-        <input type='text' className='input-box' placeholder='Search' />
+        <input type='text' className='input-box' placeholder='Search' onChange={searchvaluefunc}/>
         <span><img id="g-search-button"src='https://tse4.mm.bing.net/th?id=OIP.cdoxldP5wXEZRcvx1f1aaAHaHa&pid=Api&P=0&w=159&h=159' alt='search-btn'></img></span>
         <span><span id="login-name">LOGIN</span><img id="login-logo" src='https://www.freeiconspng.com/uploads/user-login-icon-14.png' alt='login-btn'/></span>
         <span><span id="wishlist-name">WISHLIST</span><img id='wishlist-logo' src='https://tse4.mm.bing.net/th?id=OIP.VDNrxINNAldMTmfbPJP5ggHaGP&pid=Api&P=0&w=207&h=174' alt='wishlist-btn' /></span>
