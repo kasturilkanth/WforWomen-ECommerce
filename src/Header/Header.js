@@ -28,9 +28,11 @@ function Header({searchvaluefunc}){
     <div className='right'>
         <input type='text' className='input-box' placeholder='Search' onChange={searchvaluefunc}/>
         <span><img id="g-search-button"src='https://tse4.mm.bing.net/th?id=OIP.cdoxldP5wXEZRcvx1f1aaAHaHa&pid=Api&P=0&w=159&h=159' alt='search-btn'></img></span>
+        <div className='logos'>
         <span><span id="login-name">LOGIN</span><img id="login-logo" src='https://www.freeiconspng.com/uploads/user-login-icon-14.png' alt='login-btn'/></span>
         <span><span id="wishlist-name">WISHLIST</span><img id='wishlist-logo' src='https://tse4.mm.bing.net/th?id=OIP.VDNrxINNAldMTmfbPJP5ggHaGP&pid=Api&P=0&w=207&h=174' alt='wishlist-btn' /></span>
         <span><span id="cart-name">CART</span><img id="cart-logo" src='https://pic.onlinewebfonts.com/svg/img_290616.png' alt='cart-btn'/></span>
+        </div>
     </div>
 </div>
     )

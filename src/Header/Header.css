@@ -74,27 +74,27 @@
 
   }
 #login-logo{
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     position: relative;
     left: -72px;
     top: 20px;
 
 }
 #wishlist-logo{
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     position: relative;
     left: -120px;
     top: 10px;
 
 }
 #cart-logo{
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     position: relative;
-    left: 620px;
-    top: -50px;
+    left: 600px;
+    top: -40px;
 
 }
 #login-name{
@@ -129,4 +129,9 @@
 #g-search-button:hover{
     cursor: pointer;
     color: red;
+}
+.logos{
+    position: relative;
+    top: -70px;
+    left:500px;
 }
