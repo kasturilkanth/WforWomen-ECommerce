@@ -1,6 +1,6 @@
 .box{
   height: 1130px;
-  width: 360px;
+  width: 300px;
   border-left:1px solid rgb(204, 196, 196);
   border-right:1px solid rgb(204, 196, 196);
   border-top:1px solid rgb(204, 196, 196);
@@ -12,12 +12,12 @@
   border-top: 1px solid rgb(204, 196, 196);
 border-bottom: 1px solid rgb(204, 196, 196);
 cursor: pointer;
-width: 320px;
+width: 300px;
 height:60px ;
 }
 .color,.filter{
   height: 60px;
-  width: 340px;
+  width: 280px;
   font-weight: bold;
   display: flex;
   justify-content:space-between; 

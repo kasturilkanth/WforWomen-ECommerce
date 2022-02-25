@@ -61,7 +61,7 @@
     border-radius: 7px;
     border: 1px solid rgb(204, 196, 196);
     font-size: larger;
-    margin-left: 220px;
+    margin-left: 120px;
     margin-top: 70px;
 }
 #g-search-button {
@@ -131,6 +131,7 @@
     color: red;
 }
 .logos{
+    
     position: relative;
     top: -70px;
     left:500px;
